@@ -13,7 +13,7 @@ import java.util.List;
  */
 public class NewClass {
     
-    public static int Devuelve (List<Integer> a){
+    public  int Devuelve (List<Integer> a){
     int cont=0;
     
     for(int i = 0 ; i < a.size()-1  ; i++ ){
@@ -34,6 +34,14 @@ public class NewClass {
  
     
     return cont;
+    }
+    
+    public  String Cometario(String a){
+    String f;
+    System.out.println("Lo que llega="+a);
+    f="Cambio cometario";
+    
+    return f;
     }
     
     
