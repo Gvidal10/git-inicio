@@ -27,13 +27,14 @@ public class Prueba {
         String com, regresa;        
         com = "Primer comenario";
         NewClass e = new NewClass();
-        NewClass g = new NewClass();
+        
         
         cont = e.Devuelve(gato);
-        regresa = g.Cometario(com);
+        regresa = e.Cometario(com);
         System.out.println("Los movimiento hechos para recorrer son="+cont);
         System.out.println("Frase="+regresa);
         System.out.println(e.Devuelve(gato1));
+        System.out.println("La suma="+e.Suma(34,56));
         
         }
 
