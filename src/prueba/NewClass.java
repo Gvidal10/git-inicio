@@ -44,6 +44,15 @@ public class NewClass {
     return f;
     }
     
+    public int Suma(int a, int b){
+    
+       int cont;
+       
+       cont = a + b;
+       
+       return cont;
+    
+    }
     
     
 }
