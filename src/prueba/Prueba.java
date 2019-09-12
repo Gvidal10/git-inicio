@@ -22,16 +22,19 @@ public class Prueba {
         
         
         List<Integer> gato = new ArrayList<>(Arrays.asList(1,1,1,0,0,0,0,1));
+        List<Integer> gato1 = new ArrayList<>(Arrays.asList(1,0,1,0,0,1,0,1));
         int cont = 0;
         String com, regresa;        
         com = "Primer comenario";
         NewClass e = new NewClass();
-        NewClass g = new NewClass();
+        
         
         cont = e.Devuelve(gato);
-        regresa = g.Cometario(com);
+        regresa = e.Cometario(com);
         System.out.println("Los movimiento hechos para recorrer son="+cont);
         System.out.println("Frase="+regresa);
+        System.out.println(e.Devuelve(gato1));
+        System.out.println("La suma="+e.Suma(34,56));
         
         }
 
