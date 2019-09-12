@@ -21,19 +21,19 @@ public class Prueba {
     public static void main(String[] args) {
         
         
-        List<Integer> gato = new ArrayList<>(Arrays.asList(1,1,1,0,0,0,0,1));
-        List<Integer> gato1 = new ArrayList<>(Arrays.asList(1,0,1,0,0,1,0,1));
+        
+       
         int cont = 0;
         String com, regresa;        
         com = "Primer comenario";
         NewClass e = new NewClass();
+        TraerDatos g = new TraerDatos();
         
-        
-        cont = e.Devuelve(gato);
+        cont = e.Devuelve(g.Lista());
         regresa = e.Cometario(com);
         System.out.println("Los movimiento hechos para recorrer son="+cont);
         System.out.println("Frase="+regresa);
-        System.out.println(e.Devuelve(gato1));
+        System.out.println(e.Devuelve(g.Lista()));
         System.out.println("La suma="+e.Suma(34,56));
         System.out.println("La multiplicacion = " +e.mult(20,10));
         }
