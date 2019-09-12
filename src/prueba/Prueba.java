@@ -35,7 +35,7 @@ public class Prueba {
         System.out.println("Frase="+regresa);
         System.out.println(e.Devuelve(gato1));
         System.out.println("La suma="+e.Suma(34,56));
-        
+        System.out.println("La multiplicacion = " +e.mult(20,10));
         }
 
     
